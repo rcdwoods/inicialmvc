@@ -1,0 +1,4 @@
+br/com/teste/controller/TesteController.class
+br/com/teste/dao/JpaTarefaDao.class
+br/com/teste/dao/TarefaDao.class
+br/com/teste/modelo/Tarefa.class

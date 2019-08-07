@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd"> 	<!-- Spring-Forum! -->
+<tiles-definitions>
+	<definition name="main" template="/views/templates/main.jsp">
+		<put-attribute name="title" value="Hello :D" />
+		<put-attribute name="cabecalho"
+			value="/views/templates/cabecalho.jsp" />
+		<put-attribute name="rodape"
+			value="/views/templates/rodape.jsp" />
+	</definition>
+
+	<definition name="index" extends="main">
+		<put-attribute name="content" value="/views/index.jsp" />
+	</definition>
+
+	<definition name="login" extends="main">
+		<put-attribute name="content" value="/views/login.jsp" />
+	</definition>
+</tiles-definitions>
